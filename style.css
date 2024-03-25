@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+
+* {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.Halaman-Utama {
+    background: rgba(0, 0, 0, .20) url(/img/Pura\ Luhur\ Batukaru.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 120vh;
+    background-blend-mode: darken;
+}
+
+.Sambutan {
+    padding-top: 90px;
+}
+
+.navbar {
+    background-color:  #747264;
+}
+
+.nav-link {
+    font-size: 19px !important;
+}
+
+.dropdown-item:hover {
+    background-color:  #a19f8c!important;
+}
+
+.Bahasa .col :hover {
+    transition: 5ms;
+    border-radius: 5px;
+    -webkit-transition: 5ms;
+    -moz-transition: 5ms;
+    -ms-transition: 5ms;
+    -o-transition: 5ms;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.hero {
+    background-image: url(/img/Pura\ Luhur\ Batukaru.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;
+} 
+.info img, h4 {
+    text-align: center;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+.informasi {
+    text-align: justify;
+}
+
+.Larangan {
+    background-color: #747264;
+}
+
+.Larangan h4 {
+    font-size: 50px;
+}
+
+.Larangan .card {
+    background-color: #747264;
+}
+
+.Larangan .card-body {
+    font-size: 20px;
+}
+
+.Larangan .card img {
+    width: 30%;
+    margin: 0 auto;
+}
+
+
+.kontak img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.Foto img {
+    width: 100%;
+    height: 240px;
+}
+
+.container .popup-image{
+    position: fixed;
+    top: 0; left: 0;
+    background: rgba(0,0,0,.9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+
+.container .popup-image span{
+    position: absolute;
+    top: 0; right: 10px;
+    font-size: 80px;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+}
+
+.container .popup-image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    border: 5px solid white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 750px;
+    object-fit: cover;
+}
+
+.carouselbutton:hover {
+    color: black;
+}
+
+.penjelasan-vt {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.Larangan .col-lg img {
+    width: 50% !important;
+}
+.Larangan .col p {
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .informasi img {
+        max-width: 350px;
+        height: auto;
+    }
+    .Lokasi img {
+        max-width: 100%;
+    }
+    .Lokasi iframe {
+        max-width: 100%;
+        height: 250px;
+    }
+    .Video iframe {
+        max-width: 100%;
+        height: 250px;
+    }
+}
